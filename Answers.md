@@ -6,7 +6,7 @@ For help with markdown syntax, [go here](https://github.com/adam-p/markdown-here
     bloat at the cost of roughly 97% performance speed.
   - Full Virtual Machine: better sandboxing and tools at the cost
     of more resources per image.
-1a. What makes a container more aptly-suited for portability?
+1.a What makes a container more aptly-suited for portability?
   - Because they are stripped down they have a small file size
     and can be used with various plug-ins depending on the
     inidividual's needs.
