@@ -2,7 +2,7 @@
 
 For help with markdown syntax, [go here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-#1.  Describe the differences between a Docker container and a virtual machine. What makes a container more aptly-suited for portability?
+# 1.  Describe the differences between a Docker container and a virtual machine. What makes a container more aptly-suited for portability?
     *Answer: a container allows to have multiple workloads in a single operating system instance while virtual machine allows for multiple operating systems.  Docker container also differ from virtual machines when it comes to speed, agility and portability.  A benefit for software developers.*
 
 2.  Given the commend docker run -p 49160:8080 -d <your_docker_username>/<your_docker_image_name>, what does 49160:8080 specify?
