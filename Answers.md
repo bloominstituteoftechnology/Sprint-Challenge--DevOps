@@ -21,4 +21,4 @@ horizontally= create more instances of the same application.
 vertically= add more processors/resources to an existing application.
 
 6. Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers?
-The paid tiers offer more dynos. 
+The paid tiers keeps your applications running (as long as you pay :) ).
