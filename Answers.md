@@ -10,7 +10,7 @@ For help with markdown syntax, [go here](https://github.com/adam-p/markdown-here
   - Because they are stripped down they have a small file size
     and can be used with various plug-ins depending on the
     inidividual's needs.
-3. Given the commend `docker run -p 49160:8080 -d <your_docker_username>/<your_docker_image_name>`, what does `49160:8080` specify?
+3. Given the command `docker run -p 49160:8080 -d <your_docker_username>/<your_docker_image_name>`, what does `49160:8080` specify?
   - Redirects port 8080 from the container to the host's 49160 
     port.
 4. What is the main purpose of using a "container orchestration platform" such as Kubernetes or Docker Swarm?
