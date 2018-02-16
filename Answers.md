@@ -30,6 +30,10 @@
 
 5. What does it mean to scale a deployed application 'horizontally'? What does it mean to scale 'vertically'?
 
+    **Answer:**  
+    Scaling an application means adding more instances of the application on the server, in order to meet deployment needs. Horizonal scaling refers to changing (increase) the number of machines (server/hardware).  
+    Vertical scaling refers to changing (increase) the software/hardware specs on the server machine.
 
+---
 
 6. Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers?
