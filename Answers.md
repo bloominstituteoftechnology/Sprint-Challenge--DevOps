@@ -10,8 +10,20 @@ On the other hand, Docker is more portable because of it smaller size. Decker co
 
 `49160:8080` specifies that Docker is using proxy port 49160 to run the application that is normally run on port 8080
 
-3. What is the main purpose of using a "container orchestration platform" such as Kubernetes or Docker Swarm?
-4. How do you change the number of replicas in a Kubernetes cluster?
+3. What is the main purpose of using a "container orchestration platform" such as Kubernetes or Docker Swarm? 
+
+Container orchestration platform is a way to automate deploying multiple replicas containers of an application, adding more when the demand is great and less when the demand drops and a way for those containers to communicate changes with each other.
+
+4. How do you change the number of replicas in a Kubernetes cluster? 
+$ kubectl scale rc NAME --replicas=COUNT \
+    [--current-replicas=COUNT] \
+    [--resource-version=VERSION]
+
 5. What does it mean to scale a deployed application 'horizontally'? What does it mean to scale 'vertically'?
-6. Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers?
+To scale a deployed application 'horizontally' is to add/delete replicas and/ or machines. Scaling 'vertically' is to add more power to the existing system. Scaling 'horizontally' is more dynamic. It is much easier to remove replicas when not need than to remove power that is not being used.
+
+6. Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers? 
+
+Heroku free tier goes to sleep if not used in 30 minutes, and no ability to scale out
+
 For help with markdown syntax, [go here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
