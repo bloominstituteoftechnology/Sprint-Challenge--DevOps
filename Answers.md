@@ -1,9 +1,12 @@
 ## DevOps
-### Answers to Sprint Assessment
+### Sprint Assessment
 
 1. Describe the differences between a Docker container and a virtual machine. What makes a container more aptly-suited for portability?
 
+    **Answer:**  
+    A **Docker container (Container)** is an optimized version of a **Virtual Machine (VM)**. A Container runs on top of Docker engine, whereas A VM runs on top of a kernel. Container loads only the modules and packages needed to run the application. On contrast to VM, the Container do not require an Operating System. Therefore, Containers are faster and better in performance than VM's.
 
+---
 
 2. Using the command `docker run -p 49160:8080 -d <your_docker_username>/<your_docker_image_name>`, what does `49160:8080` specify?
 
