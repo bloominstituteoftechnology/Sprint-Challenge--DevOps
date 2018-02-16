@@ -37,3 +37,7 @@
 ---
 
 6. Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers?
+
+    **Answer:**  
+    The free tier limits the number of active hours (called dynos) per month and automatically sleeps after a period of inactivity. Maximum number of applications in free tier is limited to 5.
+
