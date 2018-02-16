@@ -17,7 +17,8 @@
 
 3. What is the main purpose of using a "container orchestration platform" such as Kubernetes or Docker Swarm?
 
-
+    **Answer:**  
+    Container Orchestration Platforms manages the scaling of containerized application. We can use **docker** to containerize. And we can use **Kubernetes** or **Docker Swarm** to manage those containers.
 
 ---
 
