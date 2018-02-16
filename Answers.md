@@ -21,13 +21,13 @@ _Answer:_
 
 5.  What does it mean to scale a deployed application 'horizontally'? What does it mean to scale 'vertically'?_Answer:_   
 
-Horizontal scaling means to scale by adding more machines to the system. Vertical scaling means to scale by adding more power (CPU, RAM) to existing machines.
+_*Horizontal*_ scaling means to scale by adding more machines to the system. _*Vertical*_ scaling means to scale by adding more power (CPU, RAM) to existing machines.
 
 
 6.  Heroku also utilizes software containers for deployment. What is the main difference between the 'free' tier of containers on Heroku vs. the paid tiers? _Answer:_   
 
-As of this writing (16FEB2018), Heroku offers software containers for deployment on four different tiers. In the free tier, an app's power is limited because we are only allowed worker. In the paid tiers, we can use as many workers as necessary.  
-Other differences between free and paid tiers include the fact that free containers go to sleep after 30 minutes of inactivity, do not have certificate management services for custom domains, and do not have application metrics. 
+As of this writing (16FEB2018), Heroku offers software containers for deployment on four different tiers. In the free tier, an app's power is limited because we are only allowed one worker. In the paid tiers, we can use as many workers as necessary.  
+Other differences between free and paid tiers include the fact that free containers go to sleep after 30 minutes of inactivity, do not have certificate management services for custom domains, and do not haveavailable application metrics. 
 
 
 
